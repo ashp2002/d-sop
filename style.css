@@ -115,7 +115,7 @@ a {
 
 .nabar__toggle-btn {
   position: absolute;
-  top: 24px;
+  top: 14px;
   right: 32px;
   font-size: 24px;
   color: var(--color-light-white);
