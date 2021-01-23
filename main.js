@@ -9,3 +9,10 @@ document.addEventListener('scroll', ()=>{
     navbar.classList.remove('navbar--dark');
   }
     }); 
+    const navbarMenu = document.querySelector('.navbar__menu');
+    const navbarToggleBtn = document.querySelector('.nabar__toggle-btn');
+    navbarToggleBtn.addEventListener('click', () => {
+      console.log("씨발");
+      navbarMenu.classList.toggle('open');
+    });
+    
