@@ -379,6 +379,7 @@ a {
 @media screen and (max-width: 768px) {
   .nabar__toggle-btn {
     display: block;
+    margin-bottom: 10px;
   }
   #navbar {
     flex-direction: column;
